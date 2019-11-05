@@ -124,7 +124,7 @@
             this.labelCompanyName.Name = "labelCompanyName";
             this.labelCompanyName.Size = new System.Drawing.Size(495, 31);
             this.labelCompanyName.TabIndex = 22;
-            this.labelCompanyName.Text = "Yankee Clipper Contest Club";
+            this.labelCompanyName.Text = "SO2R Mini Team";
             this.labelCompanyName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // textBoxDescription
