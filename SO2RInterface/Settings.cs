@@ -1,4 +1,7 @@
-﻿namespace SO2RInterface.Properties {
+﻿// Copyright 2019 Paul Young
+// See the file LICENSE for license information and restrictions.
+
+namespace SO2RInterface.Properties {
     
     
     // This class allows you to handle specific events on the settings class:

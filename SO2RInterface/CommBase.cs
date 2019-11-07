@@ -1,3 +1,7 @@
+// Copyright 2019 Paul Young
+// Copyright 2002 Microsoft
+// See the file LICENSE for license information and restrictions.
+
 using System;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -14,8 +18,8 @@ using System.Xml.Serialization;
 //
 // http://download.microsoft.com/download/8/3/f/83f69587-47f1-48e2-86a6-aab14f01f1fe/NetSerialComm.exe
 //
-// This copy has been modified to compile without warnings in VS 2019
-// and to optionally use named pipes
+// This copy has been modified to compile without warnings in VS 2019.
+//
 
 //JH 1.1: Version 1.1 changes labelled thus.
 //JH 1.2: Version 1.2 changes labelled thus.

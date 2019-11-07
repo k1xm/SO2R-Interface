@@ -1,4 +1,7 @@
-﻿using JH.CommBase;
+﻿// Copyright 2019 Paul Young
+// See the file LICENSE for license information and restrictions.
+
+using JH.CommBase;
 
 namespace SO2RInterface
 {

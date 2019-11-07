@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Copyright 2019 Paul Young
+// See the file LICENSE for license information and restrictions.
+
+using System;
 using System.ComponentModel;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
