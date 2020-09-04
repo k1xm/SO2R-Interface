@@ -362,11 +362,13 @@ namespace SO2RInterface
         /// </summary>
         public void Latch_Changed()
         {
-            if (cLatch.Checked != _data.Latch)
+            Invoke((MethodInvoker)delegate
             {
-                _data.Latch = cLatch.Checked;
-            }
-
+                if (cLatch.Checked != _data.Latch)
+                {
+                    cLatch.Checked = _data.Latch;
+                }
+            });
         }
 
         public void Devicename_Changed()

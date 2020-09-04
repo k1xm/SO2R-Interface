@@ -100,7 +100,7 @@
             this.labelVersion.Name = "labelVersion";
             this.labelVersion.Size = new System.Drawing.Size(495, 31);
             this.labelVersion.TabIndex = 0;
-            this.labelVersion.Text = "Version 1.0";
+            this.labelVersion.Text = "Version 1.0.1";
             this.labelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // labelCopyright
@@ -112,7 +112,7 @@
             this.labelCopyright.Name = "labelCopyright";
             this.labelCopyright.Size = new System.Drawing.Size(495, 31);
             this.labelCopyright.TabIndex = 21;
-            this.labelCopyright.Text = "Copyright 2019 Paul Young";
+            this.labelCopyright.Text = "Copyright 2020 Paul Young";
             this.labelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // labelCompanyName
