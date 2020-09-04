@@ -25,11 +25,11 @@ UsedUserAreasWarning=no
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 OutputBaseFilename=Setup
-SetupIconFile=C:\SO2RInterface\SO2RInterface.ico
+SetupIconFile=SO2RInterface\SO2RInterface.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
-
+Licensefile=LICENSE
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
@@ -38,9 +38,9 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 6.1; Check: not IsAdminInstallMode
 
 [Files]
-Source: "C:\Program Files (x86)\Inno Setup 6\Examples\MyProg.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\SO2RInterface\bin\Release\SO2RInterface.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\SO2RInterface\bin\Release\SO2RInterface.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+;Source: "MyProg.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "SO2RInterface\bin\Release\SO2RInterface.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "SO2RInterface\bin\Release\SO2RInterface.exe.config"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
